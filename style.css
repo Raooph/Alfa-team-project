@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 main{
     color: red;
 }
@@ -23,9 +24,8 @@ main{
 }
 
 .blck{
-    background-color: #000000;
-=======
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    background-color: #000000;}
+
 
 body{
       font-family: "Roboto Slab", serif;
@@ -73,5 +73,5 @@ body{
     height: 100%;
     object-fit:cover;
     
->>>>>>> 0dc712009286c5659f6b3c704f2a7a03d87049e4
+
 }
