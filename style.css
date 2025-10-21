@@ -1,3 +1,26 @@
 main{
     color: red;
 }
+
+.page-container{
+    display: flex;
+    background-color: #EFEFEF;
+}
+
+.review{
+  border: 1px solid;
+  
+}
+
+.description{
+    font-size: small;
+
+}
+
+.date{
+    background-color: #9DC9C8;
+}
+
+.blck{
+    background-color: #000000;
+}
