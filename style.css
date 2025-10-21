@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+      font-family: "Roboto Slab", serif;
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+}
 
-
+.grid-container{
+    margin-bottom: 100px;
+}
 .page-container{
     display: flex;
     background-color: #EFEFEF;
@@ -24,12 +32,6 @@
     background-color: #000000;}
 
 
-body{
-      font-family: "Roboto Slab", serif;
-      margin: 0px;
-      padding: 0px;
-      box-sizing: border-box;
-}
 .main-container{
     margin: 20px 100px;
 }
@@ -37,7 +39,7 @@ body{
     font-weight: 700;
     font-size: 55px;
     line-height: 101%;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
     margin-left: 60px;
 }
 .card{
@@ -46,12 +48,17 @@ body{
     color: black;
     border-radius: 30px;
     box-shadow: 1px 1px 15px 0px #00000040;
-    h4,p{
-        padding: 5px 10px;
-    }
+    font-family: "Roboto", sans-serif;
     h4{
         font-size: 30px;
         line-height: 130%;
+        margin: 0px;
+        margin-bottom: 30px;
+
+    }
+    p{
+        font-size: 25px;
+        font-weight: 400;
         margin: 0px;
     }
 }
@@ -71,4 +78,19 @@ body{
     object-fit:cover;
     
 
+}
+
+.grid-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 30px;
+}
+.grid-description{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+#last{
+    margin-bottom: 0px;
 }
