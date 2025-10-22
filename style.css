@@ -1,28 +1,124 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+footer{
+    font-family: "Roboto Slab", serif;
+    width: 100%;
+    height: 600px;
+}
+.text{
+  font-family: "Roboto", sans-serif;
+  line-height: 150%;
+  font-size: 20px;
+}
+
+
+.name{
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 101%;
+}
+
+.details{
+   display: flex;
+   justify-content: flex-start;
+   font-weight: 700;
+   align-items: center;
+   size: 30px;
+   font: Roboto Slab;
+}
+.fb-icon{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.fcb{
+   
+}
+
+.details-section {
+  display: flex;
+  flex-direction: column;
+  background: #9DC9C8;
+  padding: 100px 50px;
+  
+  left: -1px;
+}
+
+.course-info{
+  h2{
+    font-size: 55px;
+      font-weight: 700;
+      line-height: 101%;
+  }
+}
+
+.footer-desc{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 100px;
+  text-align: left;
+  font-family: "Roboto",  sans-serif;
+  margin-bottom: 100px;
+}
+
+.footer-item{
+  width:294px;
+  h4{
+    font-weight: 400;
+  }
+}
 
 .page-container{
-    display: flex;
-    background-color: #EFEFEF;
+  
+    margin-top: 60px;
 }
 
 .review{
-  border: 1px solid;
-  
+    background: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    margin-bottom: 50px;
+    width: 791px;
+    
+}
+.info{
+    background-color: #EFEFEF;
+    padding: 20px 100px;
+
+    h2{
+      font-size: 55px;
+      font-weight: 700;
+      line-height: 101%;
+      margin-bottom: 60px;
+    }
+
 }
 
-.description{
-    font-size: small;
 
+.label {
+  font-weight: 400;
+  font-family: 'Roboto';
 }
 
-.date{
-    background-color: #9DC9C8;
+.price{
+   font-size: 80px;
+   margin-bottom: 50px;
+   
 }
 
-.blck{
-    background-color: #000000;}
+.black-bar{
+   background-color: black;
+}
 
+.review text{
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    max-width: 700px;
+    text-align: center;
+}
 
 body{
       font-family: "Roboto Slab", serif;
