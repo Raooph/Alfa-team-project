@@ -1,39 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-footer{
-    font-family: "Roboto Slab", serif;
-    width: 100%;
-    height: 600px;
+body {
+  font-family: "Roboto Slab", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+
 .text{
+.grid-container {
+  margin-bottom: 100px;
+}
+
+footer {
+  font-family: "Roboto Slab", serif;
+  width: 100%;
+  height: 600px;
+}
+
+.text {
   font-family: "Roboto", sans-serif;
   line-height: 150%;
   font-size: 20px;
 }
 
-.name{
+
+
+
+.name {
+
   font-size: 30px;
   font-weight: 700;
   line-height: 101%;
 }
 
-.details{
-   display: flex;
-   justify-content: flex-start;
-   font-weight: 700;
-   align-items: center;
-   size: 30px;
-   font: Roboto Slab;
-}
-
-.fb-icon{
+.details {
   display: flex;
-  flex-direction: column;
-  gap: 20px;
+  justify-content: flex-start;
+  font-weight: 700;
+  align-items: center;
+  font-family: "Roboto Slab";
 }
 
-.details-section {
+
+
+.fb-icon {
   display: flex;
   flex-direction: column;
   background: #9DC9C8;
@@ -41,63 +53,70 @@ footer{
   left: -1px;
 }
 
-.course-info{
-  h2{
-    font-size: 55px;
-      font-weight: 700;
-      line-height: 101%;
-  }
+.course-info h2 {
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 101%;
 }
 
-.footer-desc{
+.footer-desc {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 100px;
   text-align: left;
-  font-family: "Roboto",  sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-bottom: 100px;
 }
 
-.footer-item{
-  width:294px;
-  h4{
-    font-weight: 400;
-  }
+.footer-item {
+  width: 294px;
 }
 
-.page-container{
-  
-    margin-top: 60px;
+.footer-item h4 {
+  font-weight: 400;
 }
 
-.review{
-    background: #ffffff;
-    border-radius: 30px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    padding: 25px;
-    margin-bottom: 50px;
-    width: 791px;
-    
+.page-container {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  background-color: #EFEFEF;
 }
 
 .info{
     background-color: #EFEFEF;
     padding: 20px 100px;
 
-    h2{
-      font-size: 55px;
-      font-weight: 700;
-      line-height: 101%;
-      margin-bottom: 60px;
-    }
-
+.review {
+  background: #ffffff;
+  border-radius: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  margin-bottom: 50px;
+  width: 791px;
+  border: 1px solid;
 }
+
+.info {
+  background-color: #EFEFEF;
+  padding: 20px 100px;
+}
+
+
+.info h2 {
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 101%;
+  margin-bottom: 60px;
+}
+
 
 .label {
   font-weight: 400;
   font-family: 'Roboto';
 }
+
 
 .price{
    font-size: 80px;
@@ -165,22 +184,120 @@ footer{
   justify-content: space-between;
   gap: 100px;
   align-items: baseline;
+
+.price {
+  font-size: 80px;
+  margin-bottom: 50px;
 }
 
-.review text{
-    font-size: 16px;
-    line-height: 1.6;
-    color: #333;
-    max-width: 700px;
-    text-align: center;
+.black-bar {
+  background-color: black;
 }
 
-body{
-      font-family: "Roboto Slab", serif;
-      margin: 0px;
-      padding: 0px;
-      box-sizing: border-box;
+.review text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  max-width: 700px;
+  text-align: center;
 }
+
+.main-container {
+  margin: 20px 120px;
+}
+
+#grid-title {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 101%;
+  margin-bottom: 130px;
+  margin-left: 30px;
+}
+
+.card {
+  width: 399px;
+  height: 328px;
+  color: black;
+  border-radius: 30px;
+  box-shadow: 1px 1px 15px 0px #00000040;
+  font-family: "Roboto", sans-serif;
+}
+
+.card h4 {
+  font-size: 30px;
+  line-height: 130%;
+  margin: 0 0 30px 0;
+}
+
+.card p {
+  font-size: 25px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.img-crop {
+  width: 399px;
+  height: 160px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.grid-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.grid-description {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#last {
+  margin-bottom: 0px;
+}
+
+.container1 h2 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 101%;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about img {
+  width: 290px;
+  height: 302px;
+}
+
+.about p {
+  font-size: 24px;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+.left {
+  width: 662px;
+  font-family: "Roboto", sans-serif;
+}
+
 
 .main-container{
     margin: 20px 100px;
@@ -226,3 +343,238 @@ body{
     
 
 }
+
+.lessons {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  align-items: center;
+  margin-bottom: 200px;
+  font-family: "Roboto", sans-serif;
+}
+
+.lessons img {
+  width: 222px;
+  height: 194px;
+}
+
+.lessons h4 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 130%;
+  margin-bottom: 10px;
+}
+
+.lessons p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  margin: 0;
+  width: 150px;
+}
+
+.lessons section {
+  display: grid;
+  grid-template-columns: repeat(3, 260px);
+  margin-left: 150px;
+}
+
+.lessons-format {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  margin-bottom: 250px;
+  font-family: "Roboto", sans-serif;
+}
+
+.lessons-format h4 {
+  color: #1E4681;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 130%;
+  margin-bottom: 10px;
+}
+
+#format-title {
+  margin-bottom: 80px;
+}
+
+.formats {
+  width: 250px;
+}
+
+ul {
+  width: 662px;
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 24px;
+  margin-bottom: 300px;
+  font-family: "Roboto", sans-serif;
+}
+
+.date {
+  background-color: #9DC9C8;
+}
+
+.blck {
+  background-color: #000000;
+}
+
+.container1 {
+  margin-bottom: 100px;
+}
+.right img{
+    width: 366px;
+    height: 344px;
+}
+
+/* ---------- RESPONSIVE --------- */
+@media (max-width:834px) {
+  .container1 h2 {
+    font-size: 32px;
+  }
+
+  .left {
+    width: 383px;
+  }
+
+  .about {
+    gap: 150px;
+  }
+
+  .about p {
+    font-size: 14px;
+  }
+
+  .right img {
+    width: 211px;
+    height: 189px;
+  }
+
+  .lessons {
+    grid-template-columns: repeat(2, 80px);
+    margin-bottom: 100px;
+  }
+
+  .lessons img {
+    width: 134px;
+    height: 126px;
+  }
+
+  .lessons h4 {
+    font-size: 15px;
+  }
+
+  .lessons p {
+    font-size: 11px;
+    width: 100px;
+  }
+
+  .lessons section {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+  }
+
+  #format-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+
+  .formats {
+    width: 170px;
+  }
+
+  .formats h4 {
+    font-size: 15px;
+  }
+
+  .formats p {
+    font-size: 11px;
+  }
+
+  .lessons-format {
+    grid-template-columns: repeat(3, 230px);
+    margin-bottom: 125px;
+  }
+
+  #grid-title {
+    font-size: 32px;
+    margin-left: 0;
+    margin-bottom: 65px;
+  }
+
+  .card {
+    width: 231px;
+    height: 189px;
+    border-radius: 17px;
+  }
+
+  .img-crop {
+    width: 231px;
+    height: 92px;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+  }
+
+  .grid-description {
+    padding: 5px 10px;
+  }
+
+  .grid-description h4 {
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+
+  .grid-description p {
+    font-size: 14px;
+  }
+
+  .grid-cards {
+    gap: 20px;
+  }
+}
+
+@media (max-width:375px) {
+  .container1 h2 {
+    font-size: 26px;
+    width: 215px;
+  }
+
+  .left p {
+    width: 308px;
+  }
+
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .lessons {
+    grid-template-columns: 1fr;
+  }
+
+  .lessons img {
+    display: none;
+  }
+
+  .lessons h4 {
+    font-size: 15px;
+  }
+
+  .lessons p {
+    font-size: 10px;
+    width: 87px;
+  }
+
+  .lessons section {
+    display: flex;
+    width: 250px;
+    margin-left: 0;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
+
