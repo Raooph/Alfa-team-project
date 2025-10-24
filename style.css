@@ -8,7 +8,7 @@ body {
 }
 
 
-.text{
+
 .grid-container {
   margin-bottom: 100px;
 }
@@ -25,6 +25,10 @@ footer {
   font-size: 20px;
 }
 
+.details-section{
+  background-color: #9DC9C8;
+  padding: 160px 120px;
+}
 
 
 
@@ -48,9 +52,9 @@ footer {
 .fb-icon {
   display: flex;
   flex-direction: column;
-  background: #9DC9C8;
   padding: 100px 50px;
   left: -1px;
+  gap: 30px;
 }
 
 .course-info h2 {
@@ -73,8 +77,16 @@ footer {
   width: 294px;
 }
 
-.footer-item h4 {
-  font-weight: 400;
+.footer-item  {
+  h4{
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 25px;
+  }
+  p{
+    font-size: 18px;
+    margin: 0px;
+  }
 }
 
 .page-container {
@@ -87,6 +99,7 @@ footer {
 .info{
     background-color: #EFEFEF;
     padding: 20px 100px;
+}
 
 .review {
   background: #ffffff;
@@ -95,7 +108,7 @@ footer {
   padding: 25px;
   margin-bottom: 50px;
   width: 791px;
-  border: 1px solid;
+  height: 451px;
 }
 
 .info {
@@ -122,6 +135,7 @@ footer {
    font-size: 80px;
    margin-bottom: 50px;
    font-family: 'Roboto';
+   line-height: 101%;
 }
 
 .black-bar{
@@ -129,7 +143,6 @@ footer {
    padding: 50px 110px;
    display: flex;
    justify-content: space-between;
-   align-items: flex-start;
    width: 100%;
    box-sizing: border-box;
    height: 390px;
@@ -184,10 +197,6 @@ footer {
   justify-content: space-between;
   gap: 100px;
   align-items: baseline;
-
-.price {
-  font-size: 80px;
-  margin-bottom: 50px;
 }
 
 .black-bar {
