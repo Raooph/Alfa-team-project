@@ -127,7 +127,9 @@ footer {
 
 .label {
   font-weight: 400;
-  font-family: 'Roboto';
+  font-family: 'Roboto',sans-serif;
+  font-size: 25px;
+  line-height: 101%;
 }
 
 
@@ -211,9 +213,6 @@ footer {
   text-align: center;
 }
 
-.main-container {
-  margin: 20px 120px;
-}
 
 #grid-title {
   font-weight: 700;
@@ -309,7 +308,7 @@ footer {
 
 
 .main-container{
-    margin: 20px 100px;
+        padding: 20px 80px;
 }
 
 #grid-title{
@@ -326,13 +325,12 @@ footer {
     color: black;
     border-radius: 30px;
     box-shadow: 1px 1px 15px 0px #00000040;
-    h4,p{
-        padding: 5px 10px;
-    }
+   
     h4{
         font-size: 30px;
         line-height: 130%;
         margin: 0px;
+        margin-bottom: 30px;
     }
 }
 .img-crop{
@@ -435,9 +433,17 @@ ul {
     width: 366px;
     height: 344px;
 }
+.details{
+  display: flex;
+   align-items: center;
+}
 
 /* ---------- RESPONSIVE --------- */
 @media (max-width:834px) {
+  .main-container{
+        padding: 0px 80px 0px 50px;
+
+  }
   .container1 h2 {
     font-size: 32px;
   }
@@ -447,7 +453,7 @@ ul {
   }
 
   .about {
-    gap: 150px;
+    gap: 50px;
   }
 
   .about p {
@@ -531,6 +537,7 @@ ul {
   .grid-description h4 {
     font-size: 17px;
     margin-bottom: 20px;
+    
   }
 
   .grid-description p {
@@ -540,6 +547,104 @@ ul {
   .grid-cards {
     gap: 20px;
   }
+  .label{
+    font-size: 14px;
+  }
+  .course-info h2{
+    font-size: 32px;
+  }
+  .price{
+    font-size: 46px;
+  }
+  .footer-item{
+    h4{
+      font-size: 14px;
+    }
+    p{
+      font-size: 10px;
+    }
+  }
+  #brand-logo-img{
+    width: 66px;
+    height: 39px;
+  }
+  .details-section{
+    padding: 103px 70px;
+  }
+  .footer-item{
+    width: 170px;
+  }
+  .footer-desc{
+    margin-bottom: 20px;
+  }
+  .icons a img{
+    width: 19px;
+    height: 19px;
+  }
+  .black-bar{
+    height: 225px;
+    padding: 28px 70px;
+  }
+  .contact, .email{
+    font-size: 14px;
+  }
+  .contact{
+    img{
+      width: 15px;
+      height: 15px;
+    }
+  }
+  .email{
+    img{
+      width: 15px;
+      height: 10px;
+    }
+  }
+  .logo-container{
+    gap: 0px;
+
+  }
+  .year-2020{
+    font-size: 10px;
+  }
+  .info h2{
+    font-size: 32px;
+  }
+  .review{
+    width: 458px;
+    height: 261px;
+  }
+  .text{
+    font-size: 12px;
+  }
+  #details-img{
+    
+    width: 110px;
+    height: 97px;
+  
+  }
+  .name{
+    font-size: 17px;
+  }
+  .fb img{
+    width: 18px;
+    height: 17px;
+  }
+  .fb-icon{
+    padding: 10px 10px;
+    gap: 20px;
+  }
+  .bottom{
+    h2{
+      font-size: 32px;
+    }
+    ul{
+      font-size: 14px;
+      width: 350px;
+      margin-bottom: 150px;
+    }
+  }
+ 
 }
 
 @media (max-width:375px) {
@@ -585,5 +690,157 @@ ul {
     justify-content: space-around;
     flex-wrap: wrap;
   }
+  .lessons-format{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+      margin-bottom: 100px;
+    
+  }
+  #format-title{
+    font-size: 26px;
+    width: 310px;
+  }
+  .formats{
+    width: 190px;
+    h4, p{
+      margin: 0px;
+    }
+    h4{
+      margin-bottom: 5px;
+    }
+  
+  }
+  .grid-cards{
+    display: grid;
+    grid-template-columns: 1fr;
+      padding: 0px 60px;
+  
+  }
+  #grid-title{
+      font-size: 26px;
+      width: 421px;
+      
+  }
+  .card{
+    width: 185px;
+    height: 152px;
+  }
+  .img-crop{
+    width: 185px;
+    height: 74px;
+  }
+  .grid-description{
+    h4{
+      font-size: 14px;
+    }
+    p{
+      font-size: 12px;
+    }
+  }
+  
+  .bottom{
+    margin: 0px -30px;
+    
+    h2{
+      margin-right: 100px;
+      margin: 20px 30px;
+    }
+    ul{
+      margin-bottom: 50px;
+    }   
+  }
+  .info{
+    /* width: 376px; */
+    height: 423px;
+    h2{
+      font-size: 26px;
+      width: 257px;
+    }
+  }
+  .review{
+    width: 308px;
+    height: 248px;
+    border-radius: 13px;
+    padding: 15px 25px;
+    margin: 0px 20px;
+  }
+  .name{
+    font-size: 14px;
+  }
+  .text{
+    font-size: 11px;
+    width: 100%;
+  }
+  #details-img{
+    width: 80px;
+    height: 84px;
+  }
+  .course-info{
+    h2{
+      width: 210px;
+      font-size: 26px;
+    }
+  }
+  .details-section{
+    height: 363px;
+    padding: 62px 30px;
+  }
+  .label{
+    font-size: 12px;
+  }
+  .price{
+    font-size: 37px;
+  }
+  .footer-desc{
+    gap: 20px;
+  }
+  .footer-item{
+    
+    h4{
+      width: 138px;
+      font-size: 12px;
+    }
+    p{
+      font-size: 10px;
+      width: 138px;
+
+    }
+  }
+  .black-bar{
+    width: 100%;
+    height: 261px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 50px;
+    position: relative;
+    padding: 22px 55px;
+  }
+  .year-2020{
+    position: absolute;
+    top: 200px;
+   
+  }
+  .contact, .email{
+    font-size: 12px;
+  }
+  .email a img{
+    width: 12px;
+    height: 9px;
+  }
+  .icons{
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+  }
+  #brand-logo-img{
+    width: 53px;
+    height: 31px;
+  }
+  .info{
+    padding: 50px 20px;
+  }
+
 }
 
