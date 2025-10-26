@@ -52,8 +52,7 @@ footer {
 .fb-icon {
   display: flex;
   flex-direction: column;
-  padding: 100px 50px;
-  left: -1px;
+  padding:  50px;
   gap: 30px;
 }
 
@@ -105,10 +104,9 @@ footer {
   background: #ffffff;
   border-radius: 30px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  padding: 25px;
+  padding: 40px 45px 20px 45px;
   margin-bottom: 50px;
-  width: 791px;
-  height: 451px;
+  width: 700px;
 }
 
 .info {
@@ -610,10 +608,6 @@ ul {
   .info h2{
     font-size: 32px;
   }
-  .review{
-    width: 458px;
-    height: 261px;
-  }
   .text{
     font-size: 12px;
   }
@@ -644,6 +638,9 @@ ul {
       margin-bottom: 150px;
     }
   }
+  .review{
+    width: unset;
+  }
  
 }
 
@@ -651,6 +648,9 @@ ul {
   .container1 h2 {
     font-size: 26px;
     width: 215px;
+  }
+  .container1{
+    margin-bottom: 85px;
   }
 
   .left p {
@@ -687,7 +687,6 @@ ul {
     display: flex;
     width: 250px;
     margin-left: 0;
-    justify-content: space-around;
     flex-wrap: wrap;
   }
   .lessons-format{
@@ -748,6 +747,8 @@ ul {
     }
     ul{
       margin-bottom: 50px;
+      font-size: 12px;
+      width: 299px;
     }   
   }
   .info{
@@ -759,17 +760,16 @@ ul {
     }
   }
   .review{
-    width: 308px;
-    height: 248px;
+
     border-radius: 13px;
-    padding: 15px 25px;
-    margin: 0px 20px;
+    padding:  25px;
+    width: unset;
   }
   .name{
     font-size: 14px;
   }
   .text{
-    font-size: 11px;
+    font-size: 10px;
     width: 100%;
   }
   #details-img{
